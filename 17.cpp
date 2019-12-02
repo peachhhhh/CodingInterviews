@@ -37,7 +37,7 @@ bool HasSubtree(TreeNode *t1, TreeNode *t2)
     {
         return true;
     }
-    return isEqual(t1, t2) || HasSubtree(t1->left, t2) || HasSubtree(t1->right, t2);
+    return HasSubtree(t1->left, t2) || HasSubtree(t1->right, t2);
 }
 
 void test()
