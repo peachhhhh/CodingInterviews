@@ -14,7 +14,7 @@ struct TreeNode
     }
 };
 
-//从上往下打印二叉树（层次遍历）
+//从上往下打印二叉树（层次遍历），队列
 vector<int> PrintFromTopToBottom(TreeNode *root)
 {
     if (!root)
