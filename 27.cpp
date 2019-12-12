@@ -21,7 +21,7 @@ void dfs(vector<string> &res, string s, int pos)
     }
 }
 
-//字符串的排列
+//字符串的排列(全排列，leetcode-46)
 vector<string> Permutation(string str)
 {
     vector<string> res;
