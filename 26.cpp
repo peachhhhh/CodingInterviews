@@ -11,7 +11,7 @@ struct TreeNode
     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
 };
 
-//pre的递归顺序为二叉搜索树的中序遍历
+//pre的递归顺序为二叉搜索树的中序遍历，pre为当前节点root在中序遍历中的前一个节点
 void dfs(TreeNode *root, TreeNode *&pre)
 {
     if (!root)
